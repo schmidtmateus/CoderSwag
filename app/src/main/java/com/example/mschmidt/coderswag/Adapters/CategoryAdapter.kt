@@ -58,7 +58,7 @@ class CategoryAdapter(context: Context, categories: List<Category>) : BaseAdapte
 
     private class ViewHolder {
         var categoryImage: ImageView? = null
-        var categoryName: TextView? null
+        var categoryName: TextView? = null
 
     }
 
